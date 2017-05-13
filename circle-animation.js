@@ -1,4 +1,4 @@
-function rotateAnnotationCropper(offsetSelector, xCoordinate, yCoordinate, cropper){
+        function rotateAnnotationCropper(offsetSelector, xCoordinate, yCoordinate, cropper){
                     //alert(offsetSelector.left);
                 
                     var x = xCoordinate - offsetSelector.offset().left - offsetSelector.width()/2;
@@ -34,3 +34,11 @@ function rotateAnnotationCropper(offsetSelector, xCoordinate, yCoordinate, cropp
                 $('#innerCircle').hover(function(){
                 					
                 						$('#marker').addClass('spinMarker');
+                }, function(){
+                					 $('#marker').removeClass('spinMarker');
+                });
+                
+                
+                
+                
+            }); 
