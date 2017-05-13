@@ -1,0 +1,76 @@
+  div#dynamic-container{width:400px; height:400px; background-color: lightgoldenrodyellow; position:relative; border: 1px solid black;}
+            div#innerCircle{width: 380px; height: 380px; position: absolute; left: 10px; top:10px; background-color: lightcoral;
+                            border-radius:190px; -moz-border-radius: 190px; -webkit-border-radius: 190px;}           
+            div#marker{width: 40px; border-radius:30px; height:30px; background: red; position:absolute; left:195px; cursor: crosshair;
+                        -moz-transform:rotate(360deg);
+                        -moz-transform-origin:5px 200px;
+                        
+                        transform:rotate(360deg);
+                        transform-origin:5px 200px;                          
+
+                        -ms-transform:rotate(360deg);
+                        -ms-transform-origin:5px 200px;                                
+                        
+                        -webkit-transform:rotate(360deg);
+                        -webkit-transform-origin:5px 200px;                       
+            
+                        z-index:17;
+            } 
+            
+.spinMarker {
+       animation: spinMarker 4s infinite linear;
+}
+
+@keyframes spinMarker {
+  0% {
+      -moz-transform:rotate(0deg);
+      -moz-transform-origin:5px 200px;
+      transform:rotate(0deg);
+      transform-origin:5px 200px;                          
+      -ms-transform:rotate(0deg);
+      -ms-transform-origin:5px 200px;                                
+      -webkit-transform:rotate(0deg);
+      -webkit-transform-origin:5px 200px;     
+  }
+  25% {
+          -moz-transform:rotate(90deg);
+      -moz-transform-origin:5px 200px;
+      transform:rotate(90deg);
+      transform-origin:5px 200px;                          
+      -ms-transform:rotate(90deg);
+      -ms-transform-origin:5px 200px;                                
+      -webkit-transform:rotate(90deg);
+      -webkit-transform-origin:5px 200px;   
+  }
+  50% {
+          -moz-transform:rotate(180deg);
+      -moz-transform-origin:5px 200px;
+      transform:rotate(180deg);
+      transform-origin:5px 200px;                          
+      -ms-transform:rotate(180deg);
+      -ms-transform-origin:5px 200px;                                
+      -webkit-transform:rotate(180deg);
+      -webkit-transform-origin:5px 200px;   
+  }
+  75%{
+          -moz-transform:rotate(270deg);
+      -moz-transform-origin:5px 200px;
+      transform:rotate(270deg);
+      transform-origin:5px 200px;                          
+      -ms-transform:rotate(270deg);
+      -ms-transform-origin:5px 200px;                                
+      -webkit-transform:rotate(270deg);
+      -webkit-transform-origin:5px 200px;   
+  }
+  
+  100%{
+          -moz-transform:rotate(360deg);
+      -moz-transform-origin:5px 200px;
+      transform:rotate(360deg);
+      transform-origin:5px 200px;                          
+      -ms-transform:rotate(360deg);
+      -ms-transform-origin:5px 200px;                                
+      -webkit-transform:rotate(360deg);
+      -webkit-transform-origin:5px 200px;   
+  }
+}
