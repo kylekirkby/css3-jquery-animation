@@ -1,41 +1,84 @@
 ---
-title: 96boards | STM32 Sensor mezzanine board
-
+# Title of this page for use in <title> tag of the head.html include in layout.
+title: "96boards | DragonBoard™ 410c"
+# Breadcrumb
 breadcrumb-section: Products
-breadcrumb-section-two: Mezzanine
-breadcrumb-subtitle: STM32 Sensor mezzanine board
-breadcrumb-title: STM32 Sensor mezzanine board
-
+breadcrumb-section-two: "CE"
+breadcrumb-subtitle: "DragonBoard™ 410c"
+breadcrumb-title: "DragonBoard™ 410c"
 # Layout
 layout: product-display-page
+# Boolean to determine the type as a page.
+is_product: true
 
 # Permalink for this product
-permalink: /products/mezzanine/stm-32/
-# Product Front Matter Data
-product_title: "STM32 Sensor mezzanine board"
-product_specification: "MEZZ"
-product_short_desc: "Coming soon: The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU"
-product_long_desc: |-
-    The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU (named B-F446E-96B01A).
-    This board enables users to prototype systems that are aware of their environment, thanks to the embedded sensors for movement,
-    pressure and sound. It can be plugged directly on top of 96Boards consumer edition (CE) products and supports multiple expansion
-    possibilities through the Arduino™ Uno Revision 3 and Grove™connectivity. The integrated ST-Link debugger facilitates software development,
-    drag-and-drop programming and provides direct access to the ARM mbed on-line resources.
-product_images:
-  - st-mbed.png
+permalink: /products/ce/dragonboard410c/
 
+# Product Front Matter Data
+product_accessories:
+  - power
+  - usb-ethernet-adapter
+  - debug
 product_buy_links:
   -
-    link-title: Arrow Electronics
-    link-url: https://linaro.co/stm32arrow
-  -
-    link-title: Mouser Electronics
-    link-url: https://linaro.co/stm32mouser
-  -
-    link-title: Future Electronics
-    link-url: https://linaro.co/stm32futureelectronics
+    link-price: $75.00
+    link-title: "Buy Dragonboard"
+    link-url: "http://linaro.co/dragonboard410cbuynow"
+product_documentation_link: /docs/dragonboard410c/
+product_features:
+  cores: "4 Cores"
+  cpu: |-
+      Quad-core ARM® Cortex® A53 Snapdragon 410E Processor at up to 1.2 GHz per core
+  frequency: "Up to 1.2 GHz per core"
+  misc: |-
+      Micro SD card slot, One 40-pin low speed connector, One 60-pin high speed expansion connector and
+      Footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in
+  ram: 1GB
+  ram-type: LPDDR3
+  storage: "8GB eMMC 4.51 storage"
+product_images:
+  - DragonBoard-UpdatedImages-front.png
+  - DragonBoard-UpdatedImages-back.png
+product_long_desc: |-
+    The DragonBoard 410c, a product of Arrow Electronics, is the development board
+    based on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features advanced processing power,
+    Wi-Fi, Bluetooth connectivity, and GPS, all packed into a board the size of a credit card.
+product_mezzanine:
+  - linksprite-7-display-kit
+  - linker-mezzanine-starter-kit
+  - uarts
+  - sensors-mezzanine
+  - grove-starter-kit
+product_features:
+  - key: cpu
+    value: Quad-core ARM® Cortex® A53 Snapdragon 410E Processor at up to 1.2 GHz per core
+  - key: cores
+    value: 4
+  - key: frequency
+    value: Up to 1.2 GHz per core
+  - key: ram
+    value: 1GB
+  - key: ram-type
+    value: LPDDR3
+  - key: storage
+    value: 8GB eMMC 4.51 storage
+  - key: misc
+    value: Micro SD card slot, One 40-pin low speed connector, One 60-pin high speed expansion connector and
+     Footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in
 
-product_more_info:
-  - title: Read More on ST.com
-    link: http://linaro.co/stm32f446
+product_os:
+  - link: /downloads/android/
+    title: Android
+  - link: /downloads/debian/
+    title: Debian
+  - link: /downloads/open-embedded/
+    title: OpenEmbedded
+
+
+product_quickstart_link: /getting-started/dragonboard410c/
+product_short_desc: "Board based on Qualcomm® Snapdragon™ 410 processor and it's the size of a credit card."
+product_specification: CE
+product_support_link: "https://discuss.96boards.org/c/products/dragonboard410c/"
+product_title: "DragonBoard™ 410c (Arrow)"
+product_tutorials_link: /tutorials/dragonboard410c/
 ---
