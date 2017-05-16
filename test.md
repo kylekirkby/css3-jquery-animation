@@ -1,4 +1,4 @@
----
+----
 # Title of this page for use in <title> tag of the head.html include in layout.
 title: "96boards | Bubblegum-96"
 
@@ -25,8 +25,7 @@ product_images:
   - 96b-0-bubblegum96-actions-ucrobotics-1.png
   - 96b-0-bubblegum96-actions-ucrobotics-4.png
   - 96b-0-bubblegum96-actions-ucrobotics-5.png
----
----
+  
 product_features:
   - key: Cpu
     value: ARM Cortex-A53
@@ -76,7 +75,7 @@ product_quickstart_link: /getting-started/bubblegum-96/
 product_support_link: "https://discuss.96boards.org/c/products/bubblegum96/"
 product_tutorials_link: /tutorials/bubblegum-96/
 product_documentation_link: /docs/bubblegum-96/
----
+----
 ## Bubblegum-96
 
 The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,
