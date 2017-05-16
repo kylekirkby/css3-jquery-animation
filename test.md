@@ -25,7 +25,8 @@ product_images:
   - 96b-0-bubblegum96-actions-ucrobotics-1.png
   - 96b-0-bubblegum96-actions-ucrobotics-4.png
   - 96b-0-bubblegum96-actions-ucrobotics-5.png
-
+---
+---
 product_features:
   - key: Cpu
     value: ARM Cortex-A53
